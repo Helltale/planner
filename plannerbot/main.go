@@ -11,8 +11,6 @@ const (
 )
 
 func main() {
-	//token = flag.Get(token) 		(получаем в виде флага для секретности токена, чтообы нельзя было увидеть его в коде)
-
 	client = telegram.New(tgHost, mustToken())
 	//fetcher = fetcher.New() 		[отправка запросов для полоучения новых событий]
 	//processore = processor.New() 	[отправка новых сообщений полоьзователю]
